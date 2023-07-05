@@ -1,3 +1,5 @@
+// controller for cookie
+
 const setCookie = (req, res) => {
   const token = "token";
   res
@@ -14,4 +16,4 @@ const setCookie = (req, res) => {
 
 module.exports = {
   setCookie,
-};
+};  
